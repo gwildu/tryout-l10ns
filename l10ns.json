@@ -1,0 +1,34 @@
+{
+  "defaultProject": "tryout-l10ns",
+  "projects": {
+    "tryout-l10ns": {
+      "timezones": [
+        "Europe/Zurich"
+      ],
+      "currencies": [
+        "CHF"
+      ],
+      "interface": {
+        "autoOpen": true,
+        "port": 8888
+      },
+      "languages": {
+        "en-US": "English",
+        "de-CH": "Deutsch (Schweiz)",
+        "fr-CH": "Françai (Suisse)"
+      },
+      "defaultLanguage": "en-US",
+      "programmingLanguage": "javascript",
+      "store": "./src/l10ns",
+      "output": "./dist/l10ns",
+      "source": [
+        "src/**/**.js",
+        "src/**/**.vue"
+      ],
+      "function": {
+        "name": "translate",
+        "nameUsingData": "translate"
+      }
+    }
+  }
+}
